@@ -84,10 +84,10 @@
     border-color:var(--cyan); border-style:solid; opacity:0.7;
     transition:all .35s ease;
   }
-  .bracket-frame::before{top:-1px; left:-1px; border-width:2px 0 0 2px;}
-  .bracket-frame::after{top:-1px; right:-1px; border-width:2px 2px 0 0;}
-  .bracket-frame .bl{bottom:-1px; left:-1px; border-width:0 0 2px 2px;}
-  .bracket-frame .br{bottom:-1px; right:-1px; border-width:0 2px 2px 0;}
+  .bracket-frame::before{top:-2px; left:-2px; border-width:2px 0 0 2px;}
+  .bracket-frame::after{top:-2px; right:-2px; border-width:2px 2px 0 0;}
+  .bracket-frame .bl{bottom:-2px; left:-2px; border-width:0 0 2px 2px;}
+  .bracket-frame .br{bottom:-2px; right:-2px; border-width:0 2px 2px 0;}
   .bracket-frame:hover::before, .bracket-frame:hover::after,
   .bracket-frame:hover .bl, .bracket-frame:hover .br{
     width:26px; height:26px; opacity:1;
@@ -157,6 +157,10 @@
   /* hero visual — face-mesh scan panel */
   .scan-panel{
     position:relative; aspect-ratio:1/1.05;
+    border-radius:6px;
+  }
+  .scan-inner{
+    position:absolute; inset:0;
     background:linear-gradient(160deg, var(--bg-1), var(--bg-2));
     border:1px solid var(--panel-border);
     border-radius:6px; overflow:hidden;
