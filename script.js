@@ -93,6 +93,12 @@
   }
 
   trigger.addEventListener('click', openModal);
+  trigger.addEventListener('keydown', (e)=>{
+    if(e.key === 'Enter' || e.key === ' '){
+      e.preventDefault();
+      openModal();
+    }
+  });
   closeBtn.addEventListener('click', closeModal);
   modal.addEventListener('click', (e)=>{
     if(e.target === modal) closeModal();
