@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Osho Moboluware Peace — Full Stack AI Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div>
+
+<nav>
+  <div class="nav-inner">
+    <div class="nav-id"><span class="dot"></span> OSHO.DAMI / SYSTEM_ONLINE</div>
+    <div class="nav-links">
+      <a href="#flagship"><span class="idx">01</span>Flagship</a>
+      <a href="#projects"><span class="idx">02</span>Projects</a>
+      <a href="#skills"><span class="idx">03</span>Skills</a>
+      <a href="#experience"><span class="idx">04</span>Experience</a>
+      <a href="#contact"><span class="idx">05</span>Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Full stack AI engineer · Abuja, Nigeria</div>
+      <h1>Osho Moboluware<br><span class="accent">Peace.</span></h1>
+      <div class="role-line">
+        <span>Goes by <strong style="color:var(--text-0)">Dami</strong></span>
+        <span class="sep">/</span>
+        <span>B.Sc. Computer Science, Bingham University '26</span>
+        <span class="sep">/</span>
+        <span>Building systems that watch, verify &amp; decide</span>
+      </div>
+      <p class="lede">I build production-shaped software with computer vision and applied AI at the core from an AI-proctored exam platform used end-to-end in the real world, to engagement tracking, NLP, and recommendation systems.</p>
+      <div class="btn-row">
+        <a href="#flagship" class="btn btn-primary">View flagship project ↓</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+
+    <div class="scan-panel bracket-frame">
+      <span class="bl"></span><span class="br"></span>
+      <div class="scan-topline"><span>FACE_MESH.STREAM</span><span>68 LANDMARKS</span></div>
+      <svg viewBox="0 0 300 315" preserveAspectRatio="xMidYMid meet">
+        <defs>
+          <radialGradient id="fg" cx="50%" cy="42%" r="60%">
+            <stop offset="0%" stop-color="#132029"/>
+            <stop offset="100%" stop-color="#0B111A"/>
+          </radialGradient>
+        </defs>
+        <rect width="300" height="315" fill="url(#fg)"/>
+      </svg>
+
+      <button class="face-wrap" id="faceTrigger" aria-label="View full photo" type="button">
+        <img src="assets/face-scan.jpg" alt="Osho Moboluware Peace">
+        <svg viewBox="0 0 460 460" preserveAspectRatio="xMidYMid slice">
+          <g id="face-mesh-lines"></g>
+          <g id="face-mesh-points"></g>
+        </svg>
+        <span class="face-hint">VIEW</span>
+      </button>
+
+      <div class="scan-line"></div>
+      <div class="verify-badge">✓ IDENTITY VERIFIED — OSHO M. PEACE</div>
+      <div class="scan-readout"><span>CONFIDENCE 99.2%</span><span>frame 0417</span></div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div>
+        <div class="eyebrow">About</div>
+        <p>I'm a recent Computer Science graduate from <strong>Bingham University</strong>, and a full-stack developer who specialises in shipping AI-powered systems from raw idea to deployed product not just training a model in a notebook.</p>
+        <p>My flagship work is an <strong>AI-proctored examination platform</strong> built solo: real-time facial recognition, gaze and object detection, a Groq-powered assistant, and an admin panel, deployed and used for actual exam sessions. Alongside that I've built engagement-tracking, NLP, and recommendation systems, and I keep one foot in web development and live technical/media operations.</p>
+        <p>Currently deepening my backend and MLOps range with <strong>FastAPI</strong> and <strong>PyTorch</strong>, aiming at remote Full Stack AI Engineer roles.</p>
+      </div>
+      <div class="stat-list">
+        <div class="stat-row"><span class="label">Core focus</span><span class="value">Full-stack + Applied AI/CV</span></div>
+        <div class="stat-row"><span class="label">Flagship system</span><span class="value">AI-proctored exam platform</span></div>
+        <div class="stat-row"><span class="label">Shipped projects</span><span class="value">7+ end-to-end builds</span></div>
+        <div class="stat-row"><span class="label">Currently learning</span><span class="value">FastAPI · PyTorch</span></div>
+        <div class="stat-row"><span class="label">Based in</span><span class="value">Abuja, Nigeria</span></div>
+        <div class="stat-row"><span class="label">Open to</span><span class="value">Remote opportunities</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="flagship">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">01 / Flagship project</div>
+          <h2>AI-Based Examination<br>Invigilation System</h2>
+        </div>
+      </div>
+
+      <div class="flagship bracket-frame">
+        <span class="bl"></span><span class="br"></span>
+        <div class="flagship-top">
+          <div>
+            <h3>ExamSystem</h3>
+            <div class="sub">Final year project · Solo build · Deployed on Render</div>
+          </div>
+          <a href="https://exam-system-cvmf.onrender.com/" target="_blank" rel="noopener" class="status status-link"><span class="dot"></span>DEPLOYED &amp; OPERATIONAL</a>
+        </div>
+
+        <p class="desc">A full-stack, AI-proctored online examination platform that authenticates candidates by face, monitors gaze and objects in real time during exams, and gives admins full control over question banks, students, and live sessions evolved from an early Python/OpenCV/YOLO prototype into a production Flask + Supabase system.</p>
+
+        <div class="detect-list">
+          <div class="detect-item"><span class="lbl">Face presence &amp; identity</span><span class="stat">verified · face-api.js</span></div>
+          <div class="detect-item"><span class="lbl">Gaze deviation</span><span class="stat">tracked · EMA scoring</span></div>
+          <div class="detect-item"><span class="lbl">Unauthorized objects</span><span class="stat">flagged · COCO-SSD</span></div>
+          <div class="detect-item"><span class="lbl">Landmark mesh</span><span class="stat">468 pts · MediaPipe FaceMesh</span></div>
+          <div class="detect-item"><span class="lbl">Session tampering</span><span class="stat">blocked · server-side flags</span></div>
+          <div class="detect-item"><span class="lbl">AI assistant panel</span><span class="stat">online · Groq API</span></div>
+        </div>
+
+        <div class="tech-tags">
+          <span class="tag">Flask</span><span class="tag">Supabase</span><span class="tag">TensorFlow.js</span>
+          <span class="tag violet">MediaPipe FaceMesh</span><span class="tag violet">COCO-SSD</span><span class="tag violet">face-api.js</span>
+          <span class="tag amber">Groq API</span><span class="tag amber">Render</span><span class="tag amber">UptimeRobot</span>
+        </div>
+
+        <a href="https://exam-system-cvmf.onrender.com/" target="_blank" rel="noopener" class="btn btn-primary flagship-cta">View live project ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">02 / AI &amp; ML projects</div>
+          <h2>Applied intelligence, shipped.</h2>
+        </div>
+        <div class="section-num">5 systems · CV, NLP, recsys</div>
+      </div>
+
+      <div class="proj-grid">
+        <div class="proj-card">
+          <span class="idx">// engagement</span>
+          <h4>EngageTrack</h4>
+          <p>Real-time student engagement monitor combining blink detection (EAR), head-pose estimation, hand movement tracking, and live audio transcription into one attention-scoring pipeline.</p>
+          <div class="tech-tags"><span class="tag">OpenCV</span><span class="tag">MediaPipe</span><span class="tag">Streamlit WebRTC</span><span class="tag">Faster Whisper</span></div>
+        </div>
+
+        <div class="proj-card">
+          <span class="idx">// nlp / classification</span>
+          <h4>Fake News Detection</h4>
+          <p>Text classification system that started as a TF-IDF + Logistic Regression baseline, then upgraded to Sentence Transformer (MiniLM) embeddings benchmarked against Random Forest.</p>
+          <div class="tech-tags"><span class="tag">scikit-learn</span><span class="tag">Sentence Transformers</span><span class="tag">Pandas</span></div>
+        </div>
+
+        <div class="proj-card">
+          <span class="idx">// nlp / summarization</span>
+          <h4>AI News Summarizer</h4>
+          <p>Automatic long-form article summarization built on a Hugging Face Transformers pipeline, condensing news content while preserving key facts.</p>
+          <div class="tech-tags"><span class="tag">Transformers</span><span class="tag">Hugging Face</span><span class="tag">Python</span></div>
+        </div>
+
+        <div class="proj-card">
+          <span class="idx">// recommendation</span>
+          <h4>Movie Recommendation System</h4>
+          <p>Content-based recommender using Sentence Transformer embeddings and cosine similarity over the TMDB dataset to surface semantically similar films.</p>
+          <div class="tech-tags"><span class="tag">Sentence Transformers</span><span class="tag">Cosine Similarity</span><span class="tag">TMDB dataset</span></div>
+        </div>
+
+        <div class="proj-card">
+          <span class="idx">// computer vision</span>
+          <h4>Helmet Detection System</h4>
+          <p>CNN-based image classifier trained to detect whether motorcycle riders are wearing helmets, built on a fine-tuned VGG16 backbone.</p>
+          <div class="tech-tags"><span class="tag">TensorFlow</span><span class="tag">Keras</span><span class="tag">VGG16</span></div>
+        </div>
+
+        <div class="proj-card">
+          <span class="idx">// in progress</span>
+          <h4>Currently exploring</h4>
+          <p>Deepening backend range with FastAPI, and rebuilding intuition for model internals with PyTorch — groundwork for heavier full-stack AI systems.</p>
+          <div class="tech-tags"><span class="tag amber">FastAPI</span><span class="tag amber">PyTorch</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="other-work">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Also built</div>
+          <h2>Full-stack &amp; media/technical work</h2>
+        </div>
+      </div>
+      <div class="other-grid">
+        <div class="other-card bracket-frame">
+          <span class="bl"></span><span class="br"></span>
+          <div class="eyebrow" style="margin-bottom:10px;">Web</div>
+          <h4>Gym website</h4>
+          <p>Designed and developed a responsive marketing website for a fitness business, from layout to deployment.</p>
+        </div>
+        <div class="other-card bracket-frame">
+          <span class="bl"></span><span class="br"></span>
+          <div class="eyebrow" style="margin-bottom:10px;">Live production</div>
+          <h4>Church livestream operations</h4>
+          <p>Run live sound engineering, screen projection, and video capture for weekly services, configuring OBS Studio and EasyWorship for stable livestream delivery.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">03 / Skills</div>
+          <h2>Toolkit</h2>
+        </div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-col">
+          <div class="eyebrow">Languages &amp; web</div>
+          <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>HTML / CSS</li>
+            <li>Flask</li>
+            <li>FastAPI (learning)</li>
+          </ul>
+        </div>
+        <div class="skill-col">
+          <div class="eyebrow">AI / ML / CV</div>
+          <ul>
+            <li>TensorFlow &amp; TensorFlow.js</li>
+            <li>Keras · PyTorch (learning)</li>
+            <li>OpenCV · MediaPipe</li>
+            <li>face-api.js · COCO-SSD · YOLO</li>
+            <li>Transformers · Sentence Transformers</li>
+          </ul>
+        </div>
+        <div class="skill-col">
+          <div class="eyebrow">Backend &amp; data</div>
+          <ul>
+            <li>Supabase</li>
+            <li>Session-based auth</li>
+            <li>RESTful API design</li>
+            <li>scikit-learn · Pandas</li>
+            <li>Server-side state management</li>
+          </ul>
+        </div>
+        <div class="skill-col">
+          <div class="eyebrow">Tools &amp; ops</div>
+          <ul>
+            <li>Git / GitHub</li>
+            <li>Render deployment</li>
+            <li>UptimeRobot monitoring</li>
+            <li>Cross-browser debugging</li>
+            <li>OBS Studio · EasyWorship</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">04 / Experience</div>
+          <h2>Where I've worked</h2>
+        </div>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-head"><h4>Media Specialist</h4><span class="period">2024 — Present</span></div>
+          <div class="org">Jesus High Commission</div>
+          <p class="desc">Manage social media presence, live sound engineering, screen projection, and video recording for services and events, running OBS Studio and EasyWorship for livestream configuration.</p>
+        </div>
+        <div class="tl-item">
+          <div class="tl-head"><h4>SIWES Intern</h4><span class="period">Mar — Aug 2025</span></div>
+          <div class="org">National Information Technology Development Agency (NITDA)</div>
+          <p class="desc">Completed a six-month industrial training placement, gaining hands-on exposure to IT operations and development practices in a government agency setting.</p>
+        </div>
+        <div class="tl-item">
+          <div class="tl-head"><h4>Software Developer</h4><span class="period">2023 — Early 2024</span></div>
+          <div class="org">Free Mentorship &amp; Grooming, Wuse 2, Abuja</div>
+          <p class="desc">Worked full-time as a software developer, contributing to development tasks within a professional team environment.</p>
+        </div>
+        <div class="tl-item">
+          <div class="tl-head"><h4>B.Sc. Computer Science</h4><span class="period">Convocation Oct — Dec 2026</span></div>
+          <div class="org">Bingham University, Karu, Nasarawa State</div>
+          <p class="desc">Relevant coursework: Software Engineering, Web Engineering, Algorithm &amp; Complexity Analysis, Computer Networks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="container">
+    <div class="eyebrow" style="justify-content:center;">05 / Contact</div>
+    <h2>Let's build something<br>that actually ships.</h2>
+    <p class="lede">Open to remote Full Stack AI Engineer roles and freelance builds. Reach out — I reply fast.</p>
+    <div class="contact-row">
+      <a href="mailto:oshomoboluwareo@gmail.com" class="btn btn-primary">oshomoboluwareo@gmail.com</a>
+      <a href="https://github.com/Keonii01" target="_blank" class="btn btn-ghost">github.com/Keonii01</a>
+      <a href="tel:+2349137330077" class="btn btn-ghost">+234 913 733 0077</a>
+    </div>
+    <div class="foot-meta">
+      <span>© 2026 Osho Moboluware Peace</span>
+      <span>Abuja, Nigeria</span>
+      <span>Built with intent, not templates.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="faceModal">
+  <div class="modal-box bracket-frame">
+    <span class="bl"></span><span class="br"></span>
+    <button class="modal-close" id="faceModalClose" aria-label="Close">✕</button>
+    <img src="assets/face-scan.jpg" alt="Osho Moboluware Peace — full photo">
+    <div class="modal-caption">OSHO MOBOLUWARE PEACE · IDENTITY VERIFIED</div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
