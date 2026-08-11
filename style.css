@@ -379,3 +379,11 @@
   }
 
   :focus-visible{outline:2px solid var(--cyan); outline-offset:3px;}
+
+  .repo-pending{
+  display:inline-flex; align-items:center; gap:6px;
+  font-family:var(--mono); font-size:11px; color:var(--text-2);
+  border:1px dashed var(--panel-border); padding:5px 10px; border-radius:3px;
+  margin-top:14px;
+}
+.repo-pending .dot{width:5px; height:5px; border-radius:50%; background:var(--text-2);}
