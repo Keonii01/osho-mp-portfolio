@@ -223,28 +223,18 @@
   @keyframes scanmove{
     0%{top:6%; opacity:0;} 8%{opacity:1;} 50%{top:92%; opacity:1;} 58%{opacity:0;} 100%{top:92%; opacity:0;}
   }
-  .scan-readout{
-    position:absolute; left:14px; bottom:14px; right:14px;
-    font-family:var(--mono); font-size:11px; color:var(--cyan);
-    display:flex; justify-content:space-between; opacity:0.85;
-  }
-  .scan-readout span:last-child{color:var(--text-2);}
-  .scan-topline{
-    position:absolute; top:14px; left:14px; right:14px;
-    font-family:var(--mono); font-size:11px; color:var(--text-2);
-    display:flex; justify-content:space-between;
-  }
   .verify-badge{
-    position:absolute; bottom:44px; left:14px;
+    position:absolute; bottom:18px; left:50%; transform:translate(-50%,6px);
+    text-align:center;
     font-family:var(--mono); font-size:11px; color:var(--bg-0);
     background:var(--cyan); padding:4px 9px; border-radius:2px;
     opacity:0; transform:translateY(6px);
     animation:reveal 3.2s ease-in-out infinite;
   }
   @keyframes reveal{
-    0%,55%{opacity:0; transform:translateY(6px);}
-    68%,92%{opacity:1; transform:translateY(0);}
-    100%{opacity:0; transform:translateY(6px);}
+    0%,55%{opacity:0; transform:translate(-50%,6px);}
+    68%,92%{opacity:1; transform:translate(-50%,0);}
+    100%{opacity:0; transform:translate(-50%,6px);}
   }
 
   /* ---------- section shell ---------- */
