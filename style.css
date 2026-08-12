@@ -387,3 +387,8 @@
   margin-top:14px;
 }
 .repo-pending .dot{width:5px; height:5px; border-radius:50%; background:var(--text-2);}
+
+.repo-link{
+  display:inline-flex;
+  margin-top:14px;
+}
